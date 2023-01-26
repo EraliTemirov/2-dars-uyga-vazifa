@@ -13,6 +13,7 @@ function App() {
 
   return (
    <>
+   <h2>O'zgartirish kiritdik</h2>
    <Header />
   <Showcase />
   <Section1 />
