@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+.header{
+  height: 60px;
+  padding: 25px 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ul{
+  
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.li{
+  list-style: none;
+}
+a{
+  color: black;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+}
+.getstarted{
+  margin-top:-5px ;
+  font-size: 20px;
+  width: 140px;
+  height: 30px;
+  border: 1px solid rgb(105, 105, 245);
+  border-radius: 7px;
+  background-color: rgb(105, 105, 245);
+  color: wheat;
+
+}
+.flex{
+  margin-top: 50px;
+  display: flex;
+}
+.flexx{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+.one{
+  width: 700px;
+}
+h1{
+  font-size: 45px;
+  line-height: 1.4em;
+  width: 500px;
+}
+.showcase-p{
+  width: 500px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  line-height: 1.4em;
+  font-size: 18px;
+
+}
+.botanik{
+  position: absolute;
+  width: 300px;
+  z-index: 10;
+}
+.botanikbac{
+  position: absolute;
+  width: 400px;
+  transform: translate(-10%, 17%);
+
+  z-index: 0;
+}
+
+.dragon{
+  background-color: #0077C0;
+  margin-top: 15px;
+}
+.bosh{
+  text-align: center;
+  margin-top: 15px;
+}
+.span{
+  letter-spacing: 5px;
+  color: wheat;
+  font-size: 20px;
+}
+.h2{
+  color: wheat;
+  margin-top: 15px;
+  margin-left: 400px;
+  width: 400px;
+  font-size: 45px;
+}
+.card:nth-child(1){
+  width: 25%;
+  margin-top: 25px;
+  margin-left: 120px;
+  margin-bottom: 60px;
+}
+.card{
+  width: 25%;
+  margin-top: 25px;
+  margin-left: 35px;
+  margin-bottom: 60px;
+}
+.section2-h3{
+  margin-top: 15px;
+  color: wheat;
+}
+.section2-p{
+  margin-top: 15px;
+  color: wheat;
+  line-height: 1.2em;
+}
+
+.section3{
+  justify-content: space-around;
+}
+
+.section3-div{
+  margin-top: 100px;
+}
+.section3-h2{
+  line-height: 1.6em;
+  width: 470px;
+  font-size: 45px;
+}
+.section3-ul{
+  margin-left: 25px;
+  width: 400px;
+  margin-top: 35px;
+}
+.section3-li{
+  width: 400px;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.sarlovha{
+  margin-top: 40px;
+  text-align: center;
+}
+.sarlovha-span{
+  letter-spacing: 7px;
+}
+.sarlovha-h3{
+  letter-spacing: 4px;
+  font-size: 25px;
+  width: 400px;
+  margin: 20px 200px 15px 400px;
+}
+.cards{
+  margin-top: 100px;
+  width: 350px;
+}
+.block{
+  display: flex;
+  justify-content:start;
+  gap: 10px;
+  width: 350px;
+  margin-bottom: 15px;
+}
+.avatar{
+  width: 50px;
+}
+.name{
+  letter-spacing: 3px;
+}
+.star{
+  margin-top: 6px;
+  width: 130px;
+}
+.card-p{
+  line-height: 1.4rem;
+}
+.div-card{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.dev{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #0077C0;
+}
+.dasturchi{
+  width: 400px;
+}
+.malumot{
+  margin-top: 100px;
+}
+.section5-span{
+  letter-spacing: 5px;
+  color: wheat;
+}
+.section5-h3{
+  width: 450px;
+  font-size: 35px;
+  color: wheat;
+  margin-top: 15px;
+}
+.section5-btn{
+  width: 120px;
+  height: 35px;
+  margin-top: 40px;
+  border: 1px solid #0077C0;
+  border-radius: 7px;
+  font-size: 16px;
+  color: #0077C0;
+  font-weight: 800;
+}
+
+footer{
+  background-color: black;
+}
+.footer-a{
+  color: wheat;
+}
+.footer-h3{
+  color: wheat;
+}
+.logo-footer{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.imgs{
+  width: 250px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.fle{
+  width:375px;
+}
+.footer-ul{
+  list-style: none;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: wheat;
+
+}
+.footer-li{
+  margin-bottom: 15px;
+}
+.footer-li:nth-child(1){
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 800;
+}
+.flexy{
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+}
+.footer-h4{
+  color: wheat;
+  margin-top: 60px;
+}
+.footer-btn{
+  margin-top: 20px;
+  width: 220px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 16px;
+  text-align: start;
+  color: white;
+  font-weight: 800;
+  background-color: gray;
+}
